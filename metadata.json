@@ -1,0 +1,8 @@
+{
+  "name": "ClickFlow Studio lite",
+  "description": "Advanced auto clicker and macro recorder with intelligent list iteration for automated workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

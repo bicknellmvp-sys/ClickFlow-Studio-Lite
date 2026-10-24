@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #080808;
+    color: #FFFFFF;
+  }
+
+  h1, h2, h3, h4, .font-brand {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+.crimson-btn {
+  background-color: #E60033;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  border: 1px solid #E60033;
+  box-shadow: 0 0 12px rgba(230, 0, 51, 0.35);
+  transition: all 0.2s ease-in-out;
+}
+
+.crimson-btn:hover:not(:disabled) {
+  background-color: #CC002D;
+  border-color: #CC002D;
+  box-shadow: 0 0 16px rgba(230, 0, 51, 0.5);
+}
+
+.crimson-input {
+  background-color: #080808;
+  color: #FFFFFF;
+  border: 1px solid #262626;
+  font-family: 'Inter', sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+.crimson-input:focus {
+  outline: none;
+  border-color: #E60033;
+  box-shadow: 0 0 12px rgba(230, 0, 51, 0.4);
+}
+
+.obsidian-card {
+  background-color: #121218;
+  border: 1px solid #262626;
+}
